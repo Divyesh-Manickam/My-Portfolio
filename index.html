@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyesh Manickam G | Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- ====Main Container Start====-->
+    <div class="main-container">
+
+        <!-- ====Dark Mode Toggle====-->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- ====Aside/Sidebar Start====-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#home"><span>D</span>ivyesh</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#services"><i class="fa-solid fa-list"></i> Services</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-comments"></i> Contact</a></li>
+            </ul>
+        </div>
+        <!-- ====Aside/Sidebar End====-->
+
+        <div class="main-content">
+
+            <!-- ====Home Section Start====-->
+            <section class="section home active" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, I'm <span class="name">Divyesh Manickam</span></h3>
+                            <h3 class="my-profession">And I'm a <span class="typing"></span></h3>
+                            <p>Information Technology student building a strong foundation in programming and database
+                                management. I enjoy turning ideas into working software &mdash; from encryption research to
+                                everyday tools &mdash; and I'm eager to bring that curiosity to a Full Stack or Software
+                                Development role.</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <div class="avatar-wrap">
+                                <img src="images/myself.png" alt="Divyesh Manickam" class="profile-img"
+                                     onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback">
+                                    <span>DM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====Home Section End====-->
+
+            <!-- ====About Section Start====-->
+            <section class="section about" id="about">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                        <div class="tip">Who I Am</div>
+                    </div>
+
+                    <div class="row about-content">
+                        <div class="about-text padd-15">
+                            <p>I'm an Information Technology student at Sastra Deemed University with a strong
+                                foundation in programming and database management, seeking opportunities in Full Stack
+                                and Software Development. I like to apply what I learn through real projects and
+                                internships while continuously picking up new tools along the way.</p>
+
+                            <div class="personal-info">
+                                <div class="row">
+                                    <div class="info-item padd-15">
+                                        <p>Name <span>Divyesh Manickam G</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Phone <span>7010888897</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Email <span>127015024@sastra.ac.in</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>From <span>Tiruchirappalli, Tamil Nadu</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Timeline -->
+                    <div class="title">
+                        <h3><span>Education</span></h3>
+                    </div>
+                    <div class="row education">
+                        <div class="timeline-box padd-15">
+                            <div class="timeline shadow-dark">
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">B.Tech in Information Technology</h3>
+                                    <p class="timeline-text">Sastra Deemed University, Thanjavur, Tamil Nadu &mdash;
+                                        CGPA 6.33/10 (till 4th semester). Coursework: Data Structures &amp; Algorithms,
+                                        OOP, Database Management, Core Programming (C, C++, Java, Python).</p>
+                                    <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2023 &ndash; 2027</span>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">Higher Secondary Education</h3>
+                                    <p class="timeline-text">Mount Litera Zee School, Trichy, Tamil Nadu &mdash;
+                                        Scored 85.2%.</p>
+                                    <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2022 &ndash; 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="title">
+                        <h3><span>Skills</span></h3>
+                    </div>
+                    <div class="row skills">
+                        <div class="skills-box padd-15">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span>Python</span><span>Java</span><span>C</span><span>C++</span>
+                            </div>
+                        </div>
+                        <div class="skills-box padd-15">
+                            <h4>Database Management</h4>
+                            <div class="skill-tags">
+                                <span>SQL</span><span>MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="skills-box padd-15">
+                            <h4>Development</h4>
+                            <div class="skill-tags">
+                                <span>Full Stack Development</span><span>Web Development</span>
+                            </div>
+                        </div>
+                        <div class="skills-box padd-15">
+                            <h4>Soft Skills</h4>
+                            <div class="skill-tags">
+                                <span>Analytical Problem-Solving</span><span>Project Management</span>
+                                <span>Team Collaboration</span><span>Communication</span><span>Adaptability</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="title">
+                        <h3><span>Certifications &amp; Coursework</span></h3>
+                    </div>
+                    <div class="row certifications">
+                        <div class="cert-item padd-15">
+                            <i class="fa-solid fa-certificate"></i>
+                            <div>
+                                <h4>Google Analytics Certification</h4>
+                                <p>Proficiency in analytics tools and data analysis.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item padd-15">
+                            <i class="fa-solid fa-certificate"></i>
+                            <div>
+                                <h4>Data Structures &amp; Algorithms</h4>
+                                <p>Advanced data structures and algorithmic problem solving.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item padd-15">
+                            <i class="fa-solid fa-certificate"></i>
+                            <div>
+                                <h4>Object-Oriented Programming</h4>
+                                <p>Applied OOP concepts across multiple programming languages.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item padd-15">
+                            <i class="fa-solid fa-certificate"></i>
+                            <div>
+                                <h4>Database Management</h4>
+                                <p>Practical experience with SQL database design and MongoDB.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====About Section End====-->
+
+            <!-- ====Services Section Start====-->
+            <section class="section services" id="services">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>What I Do</h2>
+                        <div class="tip">Services</div>
+                    </div>
+
+                    <div class="row services-content">
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <h3>Full Stack Development</h3>
+                                <p>Building complete web applications end to end, from responsive front-end
+                                    interfaces to server-side logic.</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <i class="fa-solid fa-globe"></i>
+                                <h3>Web Development</h3>
+                                <p>Crafting clean, responsive websites and interfaces using HTML, CSS and
+                                    JavaScript.</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <i class="fa-solid fa-database"></i>
+                                <h3>Database Design</h3>
+                                <p>Designing and managing relational and NoSQL databases with SQL and MongoDB.</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <h3>Applied Security &amp; Research</h3>
+                                <p>Exploring encryption and data-security concepts, including chaotic-based image
+                                    encryption for Web3.0 applications.</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <h3>Data Analysis</h3>
+                                <p>Interpreting data and building reporting/visualization features using Google
+                                    Analytics tooling.</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <i class="fa-solid fa-people-group"></i>
+                                <h3>Collaboration &amp; Delivery</h3>
+                                <p>Working in teams with strong project management, communication and problem-solving
+                                    skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====Services Section End====-->
+
+            <!-- ====Projects Section Start====-->
+            <section class="section projects" id="projects">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>My Projects</h2>
+                        <div class="tip">Recent Work</div>
+                    </div>
+
+                    <div class="row projects-content">
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner">
+                                <span class="project-year">2026</span>
+                                <h3>Advanced Image Encryption Algorithm for Web3.0</h3>
+                                <span class="project-tag">Research Publication</span>
+                                <p>A novel 2D chaotic-based image encryption algorithm combining compressed sensing
+                                    with bit-level scrambling for secure Web3.0 applications. Integrates SHA-512
+                                    hashing with a 2D chaotic (logistic-coupled) key generation system for enhanced,
+                                    image-dependent encryption.</p>
+                            </div>
+                        </div>
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner">
+                                <span class="project-year">2024</span>
+                                <h3>Expense Tracker</h3>
+                                <span class="project-tag">Personal Finance Application</span>
+                                <p>An expense tracking application with categorization, data visualization and
+                                    reporting capabilities to help users monitor spending patterns and maintain
+                                    budget control.</p>
+                            </div>
+                        </div>
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner">
+                                <span class="project-year">2024</span>
+                                <h3>Weather Tracker</h3>
+                                <span class="project-tag">Real-time Weather Application</span>
+                                <p>A weather tracking application integrating live API services to deliver real-time
+                                    conditions, temperature, humidity and forecasts for any city worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====Projects Section End====-->
+
+            <!-- ====Contact Section Start====-->
+            <section class="section contact" id="contact">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                        <div class="tip">Get In Touch</div>
+                    </div>
+
+                    <div class="row contact-content">
+                        <div class="contact-info-item padd-15">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p><a href="mailto:127015024@sastra.ac.in">127015024@sastra.ac.in</a></p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917010888897">+91 7010888897</a></p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Location</h4>
+                            <p>Tiruchirappalli, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <form id="contact-form" action="mailto:127015024@sastra.ac.in" method="post" enctype="text/plain">
+                                <div class="row">
+                                    <div class="form-item padd-15">
+                                        <input type="text" name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form-item padd-15">
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item padd-15 full-width">
+                                        <input type="text" name="subject" placeholder="Subject" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item padd-15 full-width">
+                                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item padd-15">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                                <p class="form-status" id="form-status"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====Contact Section End====-->
+
+        </div>
+    </div>
+    <!-- ====Main Container End====-->
+    <script src="js/script.js"></script>
+</body>
+</html>
